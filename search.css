@@ -1,0 +1,286 @@
+.post_requirment
+{
+    border:1px solid #cccccc;
+    height:auto;
+    width:400px;
+    margin:0 auto;
+    padding:2%;
+    border-radius:3px;
+
+}
+
+.post_req_container
+{
+    width:90%;
+    margin:0 auto;
+}
+.post_req_container .info_req
+{
+    
+    border:1px dotted #cccccc;
+    padding:2%;
+    border-radius:3px;
+    font-size:15px;
+    background-color:#ededed;
+    color:#575757;
+}
+.post_req_container #info_req_sign
+{
+    font-weight: bold;
+    color:white;
+    display:none;
+    padding:2%;
+    border-radius:3px;
+    font-size:15px;
+    background-color:#ac0050;
+   
+}
+.post_requirment input{
+    display:block;
+    width:100%;
+    height:40px;
+  
+
+
+}
+
+.post_requirment input[type="text"]
+{
+    border-radius:3px;
+    border:1px solid #cccccc;
+}
+.post_requirment input[type="submit"]
+{
+    background-color:#009acd;
+    border:0;
+    color:white;
+    font-size:16px;
+    border-radius:3px;
+}
+.post_requirment input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+.post_requirment input:focus
+{
+    
+        outline: none;
+        border-color: #9ecaed;
+        box-shadow: 0 0 10px #9ecaed;
+        
+    
+}
+.this_container
+{
+    margin-top:50px;
+    margin-bottom:50px;
+  
+}
+.info_box
+{
+    max-width:75%;
+    margin:0 auto;
+    text-align:Center;
+}
+/*DISPLAY OF THE RESULT IN THE CONTAINER */
+.result
+{
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,70%));
+    height:auto;
+    width:100%;
+    background-color:white;
+    border:1px solid #cccccc;
+    overflow:auto;
+    justify-items: center;
+    padding-bottom:5%;
+   
+    
+    
+   
+
+}
+.result .tut_detail
+{
+    align-self: center;
+    text-align:center;
+    
+    justify-items: center;
+}
+.result .tut_detail
+{
+    display:grid;
+    grid-template-rows: repeat(2,minmax(0,auto));
+
+
+}
+
+.result .tut_detail .image_container
+{
+    height:130px;
+    width:130px;
+    overflow:hidden;
+    border-radius:1000px;
+    border:1px solid #ededed;
+    
+}
+.result .tut_detail .image_container img
+{
+    position:relative;
+    left:-0%;
+}
+.result .info_detail ul
+{
+     list-style:none;
+     
+    
+}
+.result .info_detail ul h3
+{
+    color:#cc324b;
+}
+.result .info_detail ul li
+{
+    margin-top:14px;
+    color:#cc324b;
+    
+}
+.result .info_detail ul li span
+{
+    color:#474747;
+}
+
+.btn_book a
+{
+    
+    padding:10px;
+    width:160px;
+    border:#575757 2px solid;
+    border-radius:3px;
+    font-size:14px;
+
+   
+    
+}
+.btn_book:hover a
+{
+    
+    background-color:#575757;
+    cursor:pointer;
+
+   
+    
+}
+.btn_book:hover a
+{
+    color:white;
+}
+.btn_book a
+{
+    color:#474747;
+    text-decoration:none;
+}
+
+
+/*media queries for this webpage starts here */
+@media screen and (max-width:767px)
+{
+    .result
+{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,100%));
+    grid-row-gap:25px;
+    height:auto;
+    justify-items:center;
+    overflow:hidden;
+    padding-bottom:5%;
+
+}
+.result #rating
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self:start;
+    
+}
+.result .info_detail ul
+{
+  padding:0;
+}
+.result .tut_detail
+{
+    align-self:start;
+    margin-top:20%;
+    border-right:0px solid #e7dfdf;
+    border-bottom:1px solid #e7dfdf;
+}
+.result .info_detail ul
+{
+    border-right:0px solid #ededed;
+}
+.result .info_detail
+{
+    justify-self:center;
+    
+}
+.search_tut .inner_container .topic_search
+{
+    font-size:28px;
+}
+
+}
+/*media queried for the max width of 500px*/
+@media screen and (max-width:500px)
+{
+    .result
+    {
+        display:grid;
+        grid-template-columns: repeat(1,minmax(0,100%));
+        height:auto;
+        justify-items:start;
+        text-align:center;
+        grid-row-gap: 25px;
+        padding-bottom:5%;
+    
+    } 
+    .result #rating
+{
+    grid-column-start:1;
+    grid-column-end: 2;
+    justify-self:center;
+    
+}
+.result .tut_detail
+{
+    justify-self:center;
+}
+.search_tut .inner_container .topic_search
+{
+    font-size:19px;
+}
+.search_tut .inner_container input,select
+{
+    display:block;
+    margin:0 auto;
+    margin-top:20px;
+}
+.search_tut .inner_container
+{
+    
+    position:relative;
+    top:25%;
+    
+   
+    
+}
+.btn_book{
+    margin:0 auto;
+}
+/*here we are working on the responsivnes of the form for reqirment*/
+.post_requirment
+{
+    width:80%;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+}

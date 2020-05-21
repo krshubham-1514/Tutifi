@@ -1,0 +1,85 @@
+.page_account_container .profile_img
+{
+    -webkit-border-radius:100%;
+}
+.image_account_container
+{
+    border-bottom:1px solid #cccccc;
+    text-align:center;
+}
+.page_account_container
+{
+    font-family:Roboto;
+    height:auto;
+    width:370px;
+    margin:0 auto;
+    padding-bottom:3%;
+    
+    box-shadow:-1px 1px 2px 3px #d8cdcd;
+    border-radius:3px;
+    margin-top:3%;
+   
+    color:#575757;
+    padding-top:0
+
+}
+.page_account_inner_container
+{
+    width:85%;
+    margin:0 auto;
+    
+}
+.page_account_container  .page_account_inner_container .link_page
+{
+    border-top:1px solid #cccccc;
+    text-align:center;
+  
+}
+.page_account_container .link_page a{
+
+    text-decoration:none;
+}
+.page_account_container .link_page a:hover{
+    text-decoration:underline;
+    color:rgb(201, 79, 31);
+}
+.page_account_container span{
+    color:#0c6a8f;
+}
+.page_account_container p
+{
+    padding:8px;
+}
+
+/*here is the text decoration of the text in message section*/
+.container_myaccount
+{
+    width:280px;
+
+    border-radius:3px;
+    font-family:Roboto;
+}
+.container_myaccount a
+{
+    text-decoration:none;
+   
+}
+.container_myaccount  p
+{
+    font-size:16px;
+    
+    color:#474747;
+    margin-bottom:25px;
+    margin-top:10px;
+    
+    
+
+
+}
+.container_myaccount a
+{
+    border-radius:3px;
+}
+#myaccount{
+    
+}

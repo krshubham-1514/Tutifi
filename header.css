@@ -1,0 +1,720 @@
+
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Questrial,sans-serif;
+    background-color:#ededed;
+    color:#575757;
+   
+}
+.header_first_container .comp_logo .menu,#search
+{
+    display:none;
+}
+.account_hidden
+{
+    display:none;
+}
+.header_first_container
+{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,auto));
+    background-color:#470a77;
+    height:65px;
+    width:100%;
+    
+    align-items: center;
+}
+.header_first_container .user_account
+{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,auto));
+    text-align:center;
+    align-self:center;
+    
+}
+
+.header_first_container .user_account .sign_in a
+{
+    text-decoration:none;
+    
+    
+    font-weight: bold;
+    color:white;
+   
+}
+.location form select
+{
+    height:40px;
+    width:160px;
+    font-size:14px;
+    border-radius:2px;
+    border:1px solid #ededed;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    font-family:Questrial;
+
+}
+.search_hidden
+{
+    display:none;
+}
+/*second header styling */
+.header_second_container
+{
+    
+    width:100%;
+    height:120px;
+    background-color:white;
+    border-bottom:1px solid #ededed;
+}
+.header_second_container .category_user
+{
+    
+    margin:0;
+    display:grid;
+    grid-template-columns: repeat(6,minmax(0,auto));
+    list-style:none;
+    z-index:1000;
+    padding:0px;
+
+}
+
+.header_second_container .category_user >li
+{
+    justify-self:center;
+    line-height:25px;
+    color:#474747;
+    cursor:pointer;
+    width:100%;
+    text-align:center;
+    transition:0.75s;
+    
+    
+}
+.inner_container .inner_grid_conatiner ul li
+{
+    margin:0px;
+    padding:0px;
+    height:40px;
+   
+}
+
+/*category1 header hover open hidden */
+.cat1  .inner_container
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    max-height:auto;
+    display:none;
+    background-color:white;
+    color:#cc324b;
+    z-index:1000;
+    padding-bottom:25px;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    
+}
+.cat1  .inner_container ul{
+    list-style:none;
+    width:100%;
+    border-right:1px solid #ededed;
+    padding-left:2%;
+
+    
+   
+    
+}
+.cat1  .inner_container .inner_grid_conatiner ul li
+{
+    margin:0px;
+    padding:0px;
+    height:40px;
+   
+}
+
+.cat1  .inner_container .inner_grid_conatiner ul li a{
+    color:#474747;
+    text-decoration:none;
+}
+.cat1  .inner_container .inner_grid_conatiner ul li a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+
+.cat1  .inner_container  .inner_grid_conatiner
+{
+    display:grid;
+    grid-template-columns: repeat(4,minmax(0,auto));
+}
+
+
+/*category2 header hover open hidden */
+.cat2  .inner_container
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    max-height:auto;
+    display:none;
+    background-color:white;
+    z-index: 100;
+    color:#cc324b;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    padding-bottom:25px;
+}
+.cat2  .inner_container ul{
+    list-style:none;
+    width:100%;
+    border-right:1px solid #ededed;
+    padding-left:2%;
+    
+   
+    
+}
+.cat2  .inner_container .inner_grid_conatiner ul li a{
+    color:#474747;
+    text-decoration:none;
+}
+.cat2  .inner_container .inner_grid_conatiner ul li a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+.cat2  .inner_container  .inner_grid_conatiner
+{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+}
+
+
+/*category3 header hover open hidden */
+.cat3  .inner_container
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    max-height:auto;
+    display:none;
+    background-color:white;
+    z-index: 100;
+    color:#cc324b;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    padding-bottom:25px;
+}
+.cat3  .inner_container ul{
+    list-style:none;
+    width:100%;
+    border-right:1px solid #ededed;
+    padding-left:2%;
+    
+   
+    
+}
+.cat3  .inner_container .inner_grid_conatiner ul li a{
+    color:#474747;
+    text-decoration:none;
+}
+.cat3  .inner_container .inner_grid_conatiner ul li a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+
+.cat3  .inner_container  .inner_grid_conatiner
+{
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,auto));
+}
+
+
+/*category4 header hover open hidden */
+.cat4  .inner_container
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    max-height:auto;
+    display:none;
+    background-color:white;
+    z-index: 100;
+    color:#cc324b;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    padding-bottom:25px;
+    
+}
+.cat4  .inner_container ul{
+    list-style:none;
+    width:100%;
+    border-right:1px solid #ededed;
+    padding-left:2%;
+    
+   
+    
+}
+.cat4  .inner_container .inner_grid_conatiner ul li a{
+    color:#474747;
+    text-decoration:none;
+}
+.cat4  .inner_container .inner_grid_conatiner ul li a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+
+.cat4  .inner_container  .inner_grid_conatiner
+{
+    display:grid;
+    grid-template-columns: repeat(7,minmax(0,auto));
+}
+
+
+
+/*category5 header hover open hidden */
+.cat5  .inner_container
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    max-height:auto;
+    display:none;
+    background-color:white;
+    z-index: 100;
+    color:#cc324b;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    padding-bottom:25px;
+    
+}
+.cat5  .inner_container ul{
+    list-style:none;
+    width:100%;
+    border-right:1px solid #ededed;
+    padding-left:2%;
+    
+   
+    
+}
+.cat5  .inner_container .inner_grid_conatiner ul li a{
+    color:#474747;
+    text-decoration:none;
+}
+.cat5  .inner_container .inner_grid_conatiner ul li a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+
+.cat5  .inner_container  .inner_grid_conatiner
+{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+}
+
+
+/*category6 header hover open hidden */
+.cat6  .inner_container
+{
+    position:absolute;
+    left:0;
+    width:100%;
+    max-height:auto;
+    display:none;
+    background-color:white;
+    z-index: 100;
+    color:#cc324b;
+    box-shadow:1px 1px 1px 1px #cccccc;
+    padding-bottom:25px;
+    
+}
+.cat6  .inner_container ul{
+    list-style:none;
+    width:100%;
+    border-right:1px solid #ededed;
+    padding-left:2%;
+    
+   
+    
+}
+.cat6  .inner_container .inner_grid_conatiner ul li a{
+    color:#474747;
+    text-decoration:none;
+}
+.cat6  .inner_container .inner_grid_conatiner ul li a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+.cat6  .inner_container  .inner_grid_conatiner
+{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+}
+
+/*header media queries for changes are here */
+@media screen and (max-width:960px)
+{
+    .category_user li
+    {
+         font-size:15px;
+    }
+    .inner_grid_conatiner ul li
+    {
+        font-size:16px;
+    }
+    .inner_grid_conatiner ul li a
+    {
+        font-size:16px;
+    }
+}
+
+/*media queries for max width of 767px */
+@media screen and (max-width:767px)
+{
+ 
+/*fixing the problem of the chrome in mobile phone*/
+
+    .cat1  .inner_container ul{
+        list-style:none;
+        width:100%;
+        border-right:0px solid #ededed;
+        padding-left:0%;
+    
+        
+       
+        
+    }
+    .cat2  .inner_container ul{
+        list-style:none;
+        width:100%;
+        border-right:0px solid #ededed;
+        padding-left:0%;
+    
+        
+       
+        
+    }
+    .cat3  .inner_container ul{
+        list-style:none;
+        width:100%;
+        border-right:0px solid #ededed;
+        padding-left:0%;
+    
+        
+       
+        
+    }
+    .cat4  .inner_container ul{
+        list-style:none;
+        width:100%;
+        border-right:0px solid #ededed;
+        padding-left:0%;
+    
+        
+       
+        
+    }
+    .cat5  .inner_container ul{
+        list-style:none;
+        width:100%;
+        border-right:0px solid #ededed;
+        padding-left:0%;
+    
+        
+       
+        
+    }
+    .cat6  .inner_container ul{
+        list-style:none;
+        width:100%;
+        border-right:0px solid #ededed;
+        padding-left:0%;
+    
+        
+       
+        
+    }
+
+
+
+
+/*fixing of the problem ends here*/
+    .header_first_container
+{
+    display:grid;
+    grid-template-columns:repeat(1,minmax(0,auto));
+    height:80px;
+    justify-items: center;
+    border-bottom:1px solid #cccccc;
+    
+}
+/*fixing the problem of the devlopment*/
+
+.header_first_container .comp_logo .menu,#search
+{
+    display:block;
+    position: relative;;
+    
+}
+
+.header_first_container .comp_logo .rotate_menu
+{
+    animation-name:rotate;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    
+}
+@keyframes rotate{
+    from
+    {
+        transform:rotateZ(0);
+    }
+    to
+    {
+        tranform:rotateZ(360);
+    }
+}
+.header_first_container .location,.contact
+{
+   display:none;
+}
+.header_first_container .user_account 
+{
+    display:none;
+ }
+
+.header_first_container .comp_logo
+{
+    display:grid;
+    justify-self:stretch;
+    justify-items: center;
+    grid-template-columns: repeat(3,minmax(0,auto));
+}
+.header_second_container
+{
+        
+    background-color:#cc324b;
+    height:auto;
+   
+}
+
+.header_second_container .category_user
+{
+        display:none;
+        height: inherit;
+        grid-template-columns: repeat(1,minmax(0,auto));
+}
+
+.header_second_container .category_user >li
+{
+    border-bottom:0.25px solid #ad132d;
+    background-color:#cc324b;
+}
+/*down fall effect of each container is adjust here */
+.cat1  .inner_container 
+{
+    position: static;
+    max-height:auto;
+}
+.cat1  .inner_container  .inner_grid_conatiner
+{
+    
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+}
+.cat2  .inner_container 
+{
+    position: static;
+    max-height:auto;
+}
+
+.cat2  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+
+
+}
+.cat3  .inner_container 
+{
+    position: static;
+    max-height:auto;
+}
+
+.cat3  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+
+
+}
+.cat4  .inner_container 
+{
+    position: static;
+    max-height:auto;
+}
+
+.cat4  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+
+
+}
+.cat5  .inner_container 
+{
+    position: static;
+    max-height:auto;
+}
+
+.cat5  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+
+
+}
+.cat6  .inner_container 
+{
+    position: static;
+    max-height:auto;
+}
+
+.cat6  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+
+
+}
+.search_hidden  input[type=submit] {
+    background: url(logos/menu.png);
+    border: 0;
+    
+    background-size: cover;
+    background-position:center;
+}
+.search_hidden
+{
+    display:grid;
+
+   
+   
+    border-bottom:0.25px solid #ad132d;
+}
+.account_hidden
+{
+    display:none;
+   
+    background-color:#cc324b;
+    height:auto;
+    z-index:2000;
+    
+  
+    
+}
+.account_hidden div
+{
+    margin:0 auto;
+    padding:2%;
+    border-bottom:0.25px solid #ad132d;
+}
+
+.account_hidden div span
+{
+    
+    margin-left:15%;
+}
+.account_hidden div a
+{
+    color:white;
+    position:relative;
+    top:-15px;
+    font-size:18px;
+    text-decoration:none;
+}
+/*here i am solving the problem of the search hidden bar*/
+#search_hidden_align
+{
+   display:grid;
+   grid-template-columns: repeat(2,minmax(0,auto));
+   padding:3%;
+   padding-left:15%;
+    
+   
+}
+
+
+}
+@media screen and (max-width:500px)
+{
+    #search_hidden_align
+{
+   display:grid;
+   grid-template-columns: repeat(2,minmax(0,auto));
+   padding:3%;
+   padding-left:12%;
+    
+   
+}
+    
+.cat1  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+
+
+}
+.cat2  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+
+
+}
+.cat3  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+
+
+}
+.cat4  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+
+
+}
+.cat5  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+
+
+}
+.cat6  .inner_container .inner_grid_conatiner
+{
+ 
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+
+
+}
+
+
+
+}

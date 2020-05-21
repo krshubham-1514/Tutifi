@@ -1,0 +1,196 @@
+body
+{
+    
+   
+    background-color:white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+form input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 4px #9ecaed;
+}
+form textarea:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 6px #9ecaed;
+}
+/*board category hidden is here*/
+#board_cat
+{
+    display:none;
+}
+#board_cat select
+{
+    height:40px;
+    width:220px;
+
+}
+.page_det_container
+{
+    font-family:Tajawal;
+    max-width:50%;
+    margin:0 auto;
+    box-shadow:-1px 2px 3px 4px  #dbdbdb;
+    padding:15px;
+    color:#595959;
+    font-size:20px;
+    height:auto;
+    background-color:white;
+    border-radius:3px;
+}
+.upload
+{
+    margin-bottom:30px;
+    
+}
+.tutor_details
+{
+    font-size:20px;
+}
+.tut_det
+{
+    list-style:none;
+   
+}
+.select_tut
+{
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,auto));
+}
+.select_tut ul
+{
+  display:inline;
+  list-style:none;
+  padding:5%;
+}
+.select_tut ul label
+{
+    cursor:pointer;
+}
+.select_board
+{
+    display:none;
+}
+/*coustomized radio button css */
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #cc324b;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*media queries of this page starts here */
+@media screen and (max-width:960px)
+{
+    .select_tut
+{
+    padding:15px;
+    font-family:18px;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+}
+.select_tut ul 
+{
+    padding:15px;
+}
+
+.select_tut ul li
+{
+   padding:2%;
+   color:#575757;
+   font-size:18px;
+}
+}
+@media screen and (max-width:767px)
+{
+.page_det_container
+{
+
+    max-width:90%;
+    
+    
+}
+.select_tut ul li
+{
+    padding:15px;
+    font-size:25px;
+}
+}
+@media screen and (max-width:500px)
+{
+    body
+    {
+        background-color:#ededed;
+    }
+    .select_tut
+{
+    padding:10px;
+    font-size:45px;
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+   
+    
+}
+.page_det_container h3
+{ 
+
+  font-size:19px;
+}
+.page_det_container
+{
+max-width:80%;
+border:0px solid #cccccc;
+}
+.page_det_container #btn
+{
+    display:block;
+    
+    margin-top:25px;
+}
+}

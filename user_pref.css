@@ -1,0 +1,194 @@
+body
+{
+    
+    color:#474747;
+}
+
+.page_container_pref
+{
+   position:relative;
+   font-family:Questrial;
+  
+   box-shadow:-1px 1px 2px 3px #d8cdcd;
+   width:450px;
+   margin:0 auto;
+   padding-left:3%;
+   padding-right:3%;
+   padding-top:1%;
+   padding-bottom:1%;
+   border-radius:5px;
+  
+   height:600px;
+   overflow: hidden;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
+}
+#board_cat
+{
+    display:none;
+}
+#image_user
+{
+    display:block;
+    margin:0 auto;
+    margin-bottom:35px;
+    height:38px;
+    width:225px;
+
+}
+.page_container_pref .page_inner_container_pref
+{
+   position:relative;
+   top:0px;
+}
+#second_page
+{
+    margin-top:400px;
+}
+#page_three
+{
+    margin-top:450px;
+    text-align:center;
+    
+}
+
+#page_three input[type="text"]
+{
+    height:45px;
+    font-size:18px;
+    width:50%;
+    border-radius:3px;
+    border:1px  solid #cccccc;
+}
+
+.gender_pref label input
+{
+    margin-top:2%;
+    width:450px;
+}
+/*coustomized radio button css */
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #cc324b;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/*here is where media queries of this website ends*/
+
+@media screen and (max-width:660px)
+{
+    .page_container_pref
+    {
+        width:80%;
+        height:820px;
+        
+    }
+  
+
+   #change_align label
+   {
+       display:block;
+       margin-left:3%;
+       
+   }
+   #second_page
+{
+    margin-top:200px;
+}
+.mode ul
+{
+    padding:0;
+}
+
+
+
+
+}
+@media screen and (max-width:500px)
+{
+    .page_container_pref
+    {
+        width:90%;
+        height:820px;
+        
+    }
+
+
+   #change_align label
+   {
+       display:block;
+       margin-left:2%;
+       
+   }
+   #second_page
+{
+    margin-top:200px;
+}
+
+#image_user
+{
+    height:34px;
+    width:200px;
+}
+
+
+
+}
+@media screen and (max-width:360px)
+{
+    #page_three label h2
+    {
+        font-size:16px;
+
+    }
+    .pin_user_pref
+    {
+        width:250px;
+    }
+   
+}

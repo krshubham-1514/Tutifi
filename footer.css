@@ -1,0 +1,142 @@
+.footer_container
+{
+    
+    height:auto;
+    width:100%;
+    margin-top:0px;
+    position:relative;
+    background-color:#474747;
+    color:#ededed;
+    padding-top:2%;
+    padding-bottom:2%;
+    
+    
+
+}
+.footer_container .quick_links ul
+{
+    list-style:none;
+}
+
+.footer_container .logo_terms  a
+{
+    color:#cccccc;
+    text-decoration:none;
+}
+.footer_container .logo_terms  a:hover
+{
+    color:#ededed;
+}
+.footer_container .logo_terms img
+{
+    cursor:pointer;
+    
+}
+.footer_container .logo_terms img:hover
+{
+    opacity:0.6;
+    animation-name:rotate;
+    
+}
+/*grid system for the footer link is here*/
+.footer_container #container_footer_link
+{
+    display:grid;
+    grid-template-columns:repeat(5,minmax(0,auto));
+    padding-top:15px;
+    justify-items: center;
+}
+.footer_container #container_footer_link ul
+{
+    list-style:none;
+    
+}
+.footer_container #container_footer_link ul li
+{
+    padding:3px;
+}
+.footer_container #container_footer_link ul li
+{
+    color:#cccccc;
+}
+.footer_container #container_footer_link ul li a
+{
+      color:rgb(62, 193, 202);
+      text-decoration:none;
+      padding:5px;
+}
+.footer_container #container_footer_link ul li a:hover
+{
+    text-decoration:underline;
+}
+.logo_footer
+{
+    display:grid;
+    grid-template-columns: repeat(4,minmax(0,auto));
+    justify-items:center;
+    margin:0 auto;
+    margin-top:5px;
+    margin-bottom:5px;
+
+    
+}
+.logo_terms
+{
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+    justify-items:center;
+    text-align:center;
+    background-color:#505050;
+    padding-top:1%;
+    padding-bottom:1%;
+    
+}
+.footer_logo_inner_container
+{
+    width:250px;
+     
+}
+/*footer media queries start here */
+@media screen and (max-width:767px)
+{
+
+    .footer_container
+    {
+        height:auto;
+    }
+    .footer_container .logo_terms img
+    {
+        padding:8px;
+    }
+    .footer_container .logo_terms a  {
+        display:block;
+    }
+    .footer_container .logo_terms .sep
+    {
+        display:none;
+    }
+    .footer_container #container_footer_link ul
+    {
+        margin-top:25px;
+    }
+    .footer_container #container_footer_link
+    {
+
+    grid-template-columns: repeat(1,minmax(0,auto));
+    justify-items:center;
+    text-align:Center;
+    }
+   
+}
+@media screen and (max-width:500px)
+{
+    .footer_container
+    {
+        height:auto;
+        padding-top:15px;
+        padding-bottom:35px;
+
+    }
+    
+}
+

@@ -1,0 +1,712 @@
+
+.body_container
+{
+
+    
+    background-color:#ededed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.search_tutr .exp_tut
+{
+    position:absolute;
+    
+    top:40%;
+    left:30%;
+    color:rgb(245, 238, 238);
+    font-family:Questrial;
+    
+    
+}
+.search_tutr 
+{
+    width:100%;
+   
+    position: relative;
+}
+.search_tutr  .fixed-image  img
+{
+   width:100%;
+   
+}
+.search_tutr  .fixed-image 
+{
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+    justify-items: center;
+    align-items: center;
+    width:100%;
+    
+    
+  
+}
+
+/*serch tuts from opening window*/
+
+/*search input bar of the opening image.*/
+.search_tutr .find
+{
+    position:absolute;
+    top:45%;
+    left:30%;
+    
+}
+.search_tutr .find input{
+    height:50px;
+    width:440px;
+    border-radius:3px;
+    border:0;
+    
+}
+.search_tutr .find .find_tut
+{
+  list-style:none;
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,auto));
+  
+}
+/*added for the account section of the tutors and students*/
+.account_container
+{
+    border-top:1px  solid #ededed;
+    padding:4%;
+}
+/*here we are css hovering effect of the button*/
+.hover_student{
+     color:#474747;
+}
+.hover_student:hover
+{
+    background-color:#ededed;
+    color:white;
+  
+}
+/*our specification */
+.container
+{
+
+
+margin-top:8%;
+
+background-color:white;
+display:grid;
+grid-template-columns: repeat(4,minmax(0,auto));
+justify-items: center;
+height:450px;
+align-items: center;
+border-bottom:1px solid #cfcfcfcf;
+}
+.container .container_class
+{
+     text-align:center;
+     line-height:20px;
+     padding:5px;
+     padding-top:10px;
+     border-radius:3px;
+    height:250px;
+    width:90%;
+    border:1px solid #d3c7c7;
+    
+}
+.container .container_class img
+{
+    padding-bottom:10%;
+}
+.tutor_outer_container
+{
+    margin-top:15px;
+}
+ /*steps to get the right tutors*/
+ .howwork
+ {
+    margin-top:8%;
+     display:grid;
+     grid-template-columns: repeat(6,minmax(0,auto));
+     align-items: center;
+     width:100%;
+     height:380px;
+   
+     background-color:white;
+     
+ }
+ .howwork .steps
+ {
+     max-width:220px;
+     color:grey;
+     text-align:Center;
+     padding:15px;
+ }
+
+ /*start demo section*/
+ .demo
+ {
+    margin-top:8%;
+     display:grid;
+     grid-template-columns:repeat(3,minmax(0,auto));
+    align-items: center;
+    position:relative;
+    text-align:center;
+    width:100%;
+    height:280px;
+   
+    background-color:white;
+    color:#474747;
+    border-bottom:1px solid #ededed;
+ }
+
+ .demo a
+ {
+     text-decoration:none;
+     padding:15px;
+     color:white;
+     background-color:#cc324b;
+     border-radius:3px;
+ }
+ .local
+ {
+   
+     text-align:center;
+    width:100%;
+    height:140px;
+    background-color:white;
+    border-bottom:1px solid #ededed;
+    
+ }
+ .local ul 
+ {
+    
+    padding-left:0;
+     margin:0;
+     display:grid;
+     position:relative;
+     top:25%;
+     grid-template-columns: repeat(5,minmax(0,auto));
+     list-style:none;
+ }
+ .local img
+ {
+     border-radius:50px;
+ }
+ /*tutors registration section */
+ .tutors{
+    margin-top:8%;
+     display:grid;
+     grid-template-columns: repeat(2,minmax(0,auto));
+     padding:1%;
+     width:98%;
+     height:auto;
+     background-color:white;
+     text-align:center;
+     position:relative;
+     align-items: center;
+    
+ }
+ .tutors .container_tutor1
+ {
+    border:1px solid #cccccc;
+    padding:4%;
+    margin:10px;
+    border-radius:3px;
+ }
+ .tutors .container_tutor2
+ {
+    border:1px solid #cccccc;
+    padding:3%;
+    margin:10px;
+    border-radius:3px;
+ }
+ .tutors .stat_tut a{
+    text-decoration:none;
+    padding:1.7%;
+    color:white;
+ 
+    border-radius:3px;
+ }
+
+ .reviews
+ {
+    margin-top:8%;
+     display:grid;
+     grid-template-columns: repeat(2,minmax(0,auto));
+     color:#474747;
+     
+     background-color:white;
+     height:auto;
+     text-align:center;
+ }
+ .reviews .students
+ {
+     
+     border-right:1px solid #e7e0e0;
+     margin-top:25px;
+ }
+ .footer_slider_container
+ {
+     overflow:hidden;
+ }
+ .footer_slider_inner_container
+ {
+     position:relative;
+     display:grid;
+     grid-template-columns: repeat(3,minmax(0,auto));
+     width:300%;
+     
+ }
+ .dots_container 
+ {
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,auto));
+    max-width:100px;
+    margin:0 auto;
+    justify-items: center;
+ }
+ .foot_header
+{
+    position:relative;
+    top:10%;
+}
+ .dots_container .dots
+ {
+     
+     height:15px;
+     width:15px;
+     background-color:#cccccc;
+     border-radius:100%;
+ }
+ .reviews .teachers
+ {
+     
+     border-right:1px solid #e7e0e0;
+     margin-top:25px;
+ }
+ .reviews h4
+ {
+     text-align:center;
+ }
+.reviews img
+{
+    display:block;
+    margin:0 auto;
+    border-radius:500px;
+} 
+
+ .quick_link
+{
+    background-color:white;
+    height:auto;
+    width:100%;
+    margin-top:8%;
+   
+   
+}
+.quick_link
+{
+    display:grid;
+    grid-template-columns: repeat(5,minmax(0,auto));
+}
+ .quick_link ul
+{
+    padding:10px;
+    list-style:none;
+    
+}
+ .quick_link ul li
+{
+    margin:10px;
+    color:#cc324b;
+}
+ .quick_link ul li a
+{
+    text-decoration:none;
+    color:#575757;
+    
+}
+.quick_link ul li a:hover
+{
+    text-decoration:underline;
+     
+}
+.quick_link h2
+{
+    align-self:center;
+}
+
+/*media queries for tablets and related device*/
+@media screen and (max-width: 1024px)
+{
+   /*change of div styles at this breakpoint*/
+   .container
+   {
+       font-size:14px;
+   }
+   .howwork
+   {
+       font-size:13px;
+   }
+   .howwork .steps
+{
+    padding:6%;
+}
+
+}
+@media screen and (max-width:960px)
+{
+.container /*changing the container each has 2 box now */
+{
+display:grid;
+grid-template-columns: repeat(2,minmax(0,auto));
+justify-items: center;
+height:600px;
+font-size:16px;
+}
+
+.quick_link h3
+{
+    display:none;
+}
+.quick_link ul
+{
+    padding:6px;
+    
+    
+}
+.howwork
+{
+  
+    height:auto;
+ 
+    
+    
+}
+.howwork .steps
+{
+    padding:6%;
+}
+
+.demo
+{
+   
+    display:grid;
+    grid-template-columns:repeat(1,minmax(0,auto));
+    grid-column-gap:50px;
+    height:600px;
+  
+}
+.demo .city
+{ 
+   
+    font-size:12px;
+}
+.search_tutr .find .find_tut{
+    padding:0;
+
+}
+.search_tutr .find  #search_input
+{
+    width:100%;
+    
+}
+}
+@media screen and (max-width:767px)
+{
+.find{
+    display:none;
+}
+    .container /*changing the container each has 2 box now */
+    {
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+    justify-items: center;
+    height:1200px;
+    font-size:16px;
+    }
+    .quick_link
+{
+    display:grid;
+    height:650px;
+    grid-template-columns: repeat(2,minmax(0,50%));
+}
+.quick_link h3
+{
+    display:inline;
+}
+.howwork
+{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+    height:680px;
+    
+}
+.reviews
+{
+   
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+    height:auto;
+}
+}
+@media screen and (max-width:500px)
+{
+ .body_container
+ {
+    padding-top:5%;
+    padding-bottom:15%;
+    
+ }
+ /*all the last mobile modifiesd styles are here*/
+ .inner_mobile_container1
+ {
+     max-width:95%;
+     box-shadow:1px 1px 1px 1px #ededed;
+     margin:0 auto;
+     border:1px solid #d3c7c7;
+     padding-top:5%;
+     border-radius:3px;
+
+ }
+ .inner_mobile_container2
+ {
+    width:95%;
+    box-shadow:1px 1px 1px 1px #ededed;
+    margin:0 auto;
+    border:1px solid #d3c7c7;
+    padding-top:5%;
+    border-radius:3px;
+    text-align:center;
+    
+ }
+ .inner_mobile_container3
+ {
+    max-width:95%;
+    box-shadow:1px 1px 1px 1px #ededed;
+    margin:0 auto;
+    border:1px solid #d3c7c7;
+    padding-top:5%;
+    border-radius:3px;
+ }
+ .how_outer_container
+ {
+    background-color:white;
+    max-width:95%;
+    margin:0 auto;
+    margin-top:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius:5px; 
+ }
+ .demo_outer_container
+ {
+     background-color:white;
+     max-width:95%;
+     margin:0 auto;
+     margin-top:5%;
+     padding-top:5%;
+     padding-bottom:5%;
+     border-radius:5px;
+ }
+ .tutor_outer_container
+ {
+    background-color:white;
+    max-width:95%;
+    margin:0 auto;
+    margin-top:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius:5px;  
+ }
+ .inner_mobile_container4
+ {
+    max-width:95%;
+    box-shadow:1px 1px 1px 1px #ededed;
+    margin:0 auto;
+    border:1px solid #d3c7c7;
+    padding-top:5%;
+    border-radius:3px;
+ }
+
+ .review_outer_container
+ {
+    background-color:white;
+    max-width:95%;
+    margin:0 auto;
+    margin-top:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius:5px;  
+ }
+ .inner_mobile_container5
+ {
+    max-width:95%;
+    box-shadow:1px 1px 1px 1px #ededed;
+    margin:0 auto;
+    border:1px solid #d3c7c7;
+    padding-top:5%;
+    border-radius:3px;
+ }
+ .quick_outer_container
+ {
+    background-color:white;
+    max-width:95%;
+    margin:0 auto;
+    margin-top:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius:5px;  
+ }
+/*shadow effect of the each box ends here*/
+    .quick_link
+{
+    max-width:95%;
+    margin:0 auto;
+    
+    border-radius:3px;
+    padding-top:5%;
+    padding-bottom:5%;
+    display:grid;
+    height:auto;
+    text-align:center;
+    grid-template-columns: repeat(1,minmax(0,auto));
+    
+}
+.quick_link ul li
+{
+    font-size:22px;
+}
+.quick_link ul li a
+{
+    font-size:18px;
+}
+.container
+{
+    max-width:95%;
+    margin:0 auto;
+    border-radius:3px;
+    margin-top:5%;
+}
+.howwork
+{
+    max-width:95%;
+    margin:0 auto;
+    border-radius:3px;
+    margin-top:5%;
+    display:grid;
+    grid-template-columns: repeat(1,minmax(0,auto));
+    align-items: center;
+    justify-items: center;
+    height:auto;
+    font-size:18px;
+}
+.demo
+{
+    max-width:inherit;
+    margin:0 auto;
+    border-radius:3px;
+    margin-top:5%;
+}
+.local
+{
+    max-width:inherit;
+    margin:0 auto;
+    border-radius:3px;
+   
+}
+.tutors
+{
+    grid-template-columns: repeat(1,minmax(0,auto));
+    max-width:95%;
+    margin:0 auto;
+    border-radius:3px;
+    margin-top:5%;
+   
+}
+.reviews
+{
+    max-width:95%;
+    margin:0 auto;
+    border-radius:3px;
+    margin-top:5%;
+    height:auto;
+ 
+   
+   
+}
+.reviews .students
+ {
+     
+     margin-top:0px;
+     border-right:0;
+     
+ }
+ .reviews .teachers
+ {
+    
+     margin-top:0px;
+     border-right:0;
+ }
+.demo .city
+{
+    padding:15px;
+}
+.local img
+{
+    height:40px;
+    width:40px;
+}
+.footer_slider_container
+{
+    border-bottom:1px solid #ededed;
+    
+}
+.footer_slider_inner_container 
+{
+    margin-bottom:20px;
+}
+.foot_header
+{
+    position:relative;
+    top:6%;
+}
+.tutors .container_tutor1 
+{
+   border:1px solid #ededed;
+   padding:8%;
+   padding-top:12%;
+   padding-bottom:12%;
+   margin:10px;
+   border-radius:3px;
+}
+.tutors .container_tutor1  span
+{
+    display:none;
+}
+.tutors .container_tutor2  span
+{
+    display:none;
+}
+.tutors .container_tutor1  a
+{
+    
+    display:block;
+    width:160px;
+    margin:0 auto;
+    
+
+}
+.tutors .container_tutor2
+{
+   border:1px solid #ededed;
+   padding:7%;
+   padding-top:12%;
+   padding-bottom:12%;
+   margin:10px;
+   border-radius:3px;
+}
+.tutors .container_tutor2  a
+{
+    display:block;
+    width:160px;
+    margin:0 auto;
+}
+}

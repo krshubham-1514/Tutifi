@@ -1,0 +1,146 @@
+/*Form for the useraccount & tutor account here */
+
+
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-color:white;
+}
+#form
+{ margin-top:5%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  height:auto;
+  background-color:white;
+
+  border-radius:5px;
+  box-shadow:-1px 2px 3px 4px  #dbdbdb;
+  
+}
+
+#form ul
+{
+	width:85%;
+	padding:5%;
+	margin:0 auto;
+}
+#form input,textarea
+{
+	height:45px;
+	width:100%;
+	border:0.5px solid #cccccc;
+	border-radius:3px;
+	margin-top:15px;
+	
+}
+#form input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+	background-color:white;
+}
+#form textarea:focus { 
+    outline: none;
+    border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+	background-color:white;
+}
+#form select
+{
+	height:45px;
+	width:90%;
+	border:1px solid #b3b3b3;
+	
+	margin-top:15px;
+	
+}
+#form li
+{
+	
+    font-family: 'Tajawal', sans-serif;
+    color:#474747;
+
+	list-style:none;
+}
+
+#form li:nth-child(7)
+{
+	margin-left:0%;
+	margin-right:0%;
+	list-style:none;
+}
+#form input,textarea
+{
+	background-color:#f7f7f7;
+}
+
+/*here we are positioning the eye icon */
+
+
+
+#containe-message-conformation 
+{
+	
+	
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+	margin-top:85px;
+	height:250px;
+	width:35%;
+	padding:3%;
+	background-color:white;
+	font-family: 'Tajawal', sans-serif;
+	border-radius:4px;
+}
+/*media queries of this page starts here */
+@media screen and (max-width:500px)
+{
+	
+#form
+{
+
+	width:320px;
+	height:auto;
+}
+#form ul
+{
+	padding:0;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#form input
+{
+	height:42px;
+	width:100%;
+	margin-top:12px;
+}
+}
+@media screen and (max-width:320px)
+{
+	#form
+{
+
+	width:90%;
+	height:auto;
+}
+#form ul
+{
+	padding:0;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#form input,textarea
+{
+	height:42px;
+	width:95%;
+	margin-top:10px;
+}
+}
+

@@ -1,0 +1,46 @@
+
+
+.tut_contact{
+
+    font-family:Roboto;
+    width:260px;
+    margin:0 auto;
+    margin-top:20px;
+    height:auto;
+    background-color:white;
+    color:#575757;
+    border:1px solid #cccccc;
+    text-align:center;
+    padding:3%;
+    border-radius:5px;
+  
+
+}
+.tut_contact .image_container
+{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+    overflow:hidden;
+    border-radius: 100%;
+    text-align:center;
+    
+}
+
+#tut_info
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    
+}
+#tut_info li
+{
+    font-size:18px;
+    margin-top:15px;
+    color:#cc324b;
+}
+#tut_info li span,h3
+{
+    color:#575757;
+}
